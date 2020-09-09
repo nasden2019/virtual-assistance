@@ -1,0 +1,89 @@
+@media (max-width: 700px) {
+
+    // TODO TEXT
+    .todo-text {
+        text-align: center;
+        padding-bottom: -20px !important;
+        margin-top: -60px;
+
+        // .demoH {
+        //     font-weight: 900 !important;
+        // }
+
+        p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+    }
+
+
+    // TODO BOX
+    .general {
+        // max-width: 650px;
+        margin-top: -160px;
+        color: white;
+        padding-bottom: 70px;
+
+        h3 {
+            font-size: 1.4rem;
+            margin-bottom: 30px;
+        }
+
+        .todos li {
+            background: #423a6f;
+            margin-bottom: 3px;
+        }
+
+        span {
+            font-size: 1.1rem;
+        }
+
+        input[type=text]:focus {
+            background: #423a6f;
+            border: none;
+            max-width: 400px;
+            color: white;
+        }
+
+        i {
+            font-size: 15px;
+        }
+
+        // add new todo
+        .add {
+            margin-top: 12px;
+
+            h3 {
+                margin-bottom: 15px;
+                margin-top: 25px;
+                font-size: 1.3rem;
+            }
+        }
+
+        .duties-todo {
+            margin-bottom: 15px;
+            margin-top: 35px;
+        }
+
+    }
+}
+
+// Partciles
+@media (max-width: 700px) {
+    #particles-js {
+        h1 {
+            font-size: 1.6rem;
+            margin: 0 !important;
+        }
+
+        p {
+
+            font-size: 16px;
+        }
+    }
+
+    // img business
+    .imgBusiness {
+        height: 50vh;
+    }
+}

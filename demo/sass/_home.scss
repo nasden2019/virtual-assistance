@@ -1,0 +1,97 @@
+#particles-js {
+    h1 {
+        color: white !important;
+        font-size: 2.3rem;
+    }
+
+    p {
+        color: white;
+        font-size: 1.2rem;
+    }
+}
+
+// TODO LIST
+// Text (first column) 
+.todo-text {
+    padding: 110px 0;
+    color: white;
+
+    h3 {
+        font-size: 1.8rem;
+        text-decoration-line: underline;
+    }
+
+    p {
+        margin-top: 25px;
+        font-size: 1.3rem;
+        padding: 5px 20px;
+        ;
+    }
+}
+
+
+// TODO BOX
+.general {
+    // max-width: 650px;  this works well with there are no columns
+    color: white;
+    padding: 80px 0;
+
+    .searchT {
+        font-size: 1.3rem;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+        margin-bottom: 20px;
+    }
+
+    span {
+        font-size: 1.1rem;
+    }
+
+    .todos li {
+        background: #423a6f;
+        margin-bottom: 8px;
+    }
+
+    label {
+        font-size: 1.3rem;
+    }
+
+    input {
+        background: #423a6f;
+        border: none;
+    }
+
+    i {
+        font-size: 16px;
+    }
+
+    .filtered {
+        display: none !important;
+    }
+}
+
+
+// FOOTER
+footer {
+    color: white;
+    padding: 70px 0 !important;
+
+    h4 {
+        font-size: 1.5rem;
+        // text-decoration: underline;
+        margin-bottom: 8px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+// footer mobile
+@media (max-width: 700px) {
+    footer .f {
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,300 @@
+#particles-js h1 {
+  color: white !important;
+  font-size: 2.3rem;
+}
+
+#particles-js p {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.todo-text {
+  padding: 110px 0;
+  color: white;
+}
+
+.todo-text h3 {
+  font-size: 1.8rem;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.todo-text p {
+  margin-top: 25px;
+  font-size: 1.3rem;
+  padding: 5px 20px;
+}
+
+.general {
+  color: white;
+  padding: 80px 0;
+}
+
+.general .searchT {
+  font-size: 1.3rem;
+}
+
+.general h3 {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+.general span {
+  font-size: 1.1rem;
+}
+
+.general .todos li {
+  background: #423a6f;
+  margin-bottom: 8px;
+}
+
+.general label {
+  font-size: 1.3rem;
+}
+
+.general input {
+  background: #423a6f;
+  border: none;
+}
+
+.general i {
+  font-size: 16px;
+}
+
+.general .filtered {
+  display: none !important;
+}
+
+footer {
+  color: white;
+  padding: 70px 0 !important;
+}
+
+footer h4 {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+
+footer p {
+  font-size: 16px;
+}
+
+@media (max-width: 700px) {
+  footer .f {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .todo-text {
+    text-align: center;
+    padding-bottom: -20px !important;
+    margin-top: -60px;
+  }
+  .todo-text p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  .general {
+    margin-top: -160px;
+    color: white;
+    padding-bottom: 70px;
+  }
+  .general h3 {
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+  }
+  .general .todos li {
+    background: #423a6f;
+    margin-bottom: 3px;
+  }
+  .general span {
+    font-size: 1.1rem;
+  }
+  .general input[type=text]:focus {
+    background: #423a6f;
+    border: none;
+    max-width: 400px;
+    color: white;
+  }
+  .general i {
+    font-size: 15px;
+  }
+  .general .add {
+    margin-top: 12px;
+  }
+  .general .add h3 {
+    margin-bottom: 15px;
+    margin-top: 25px;
+    font-size: 1.3rem;
+  }
+  .general .duties-todo {
+    margin-bottom: 15px;
+    margin-top: 35px;
+  }
+}
+
+@media (max-width: 700px) {
+  #particles-js h1 {
+    font-size: 1.6rem;
+    margin: 0 !important;
+  }
+  #particles-js p {
+    font-size: 16px;
+  }
+  .imgBusiness {
+    height: 50vh;
+  }
+}
+
+.container1,
+.book-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container1 {
+  width: 100%;
+  height: 100vh;
+  background: #2d6f75;
+}
+
+.book-content {
+  width: 65%;
+  min-width: 350px;
+  max-width: 550px;
+  height: 480px;
+  position: relative;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.book {
+  position: absolute;
+  width: 85%;
+  height: 100%;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}
+
+.face-front,
+.face-back {
+  width: 100%;
+  height: 100%;
+  background: white;
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+}
+
+.face-front {
+  -webkit-box-shadow: inset 3px 0px 20px -7px black;
+          box-shadow: inset 3px 0px 20px -7px black;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.face-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform: translateZ(-1px) rotateY(180deg);
+          transform: translateZ(-1px) rotateY(180deg);
+  -webkit-box-shadow: inset -3px 1px 20px -7px black;
+          box-shadow: inset -3px 1px 20px -7px black;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+#portada {
+  background: url("/img/tapa.jpg");
+}
+
+#portada-back {
+  background: url("/img/imgAssis.jpg");
+}
+
+#portada,
+#portada-back {
+  background-size: 100% 100%;
+}
+
+/* Clases que se agregaran con Javascript */
+.trnsf {
+  -webkit-transform: translateX(76px);
+          transform: translateX(76px);
+}
+
+.trnsf-reset {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+}
+
+/* @media para hacer el texto responsivo */
+@media screen and (max-width: 700px) {
+  p {
+    font-size: 12px;
+  }
+  .book-content {
+    width: 50%;
+    min-width: 170px;
+    max-width: 500px;
+    height: 380px;
+    position: relative;
+    -webkit-perspective: 1000px;
+            perspective: 1000px;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+}
+
+.book-content h3 {
+  font-size: 26px;
+  margin: 35px 0;
+}
+
+.book-content p {
+  font-size: 1rem;
+}
+
+.titleBook {
+  font-size: 1.3rem;
+}
+
+.dissapear {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .book-content {
+    height: 300px !important;
+    width: 200px !important;
+    margin-left: 15px;
+  }
+  .book h3 {
+    font-size: 19px !important;
+    margin-top: -5px !important;
+    margin-bottom: 10px !important;
+  }
+  p {
+    font-size: 14px !important;
+  }
+  .titleBook {
+    margin-top: 7px;
+    font-size: 16px;
+  }
+}

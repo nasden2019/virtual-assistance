@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>particles.js</title>
+    <meta
+      name="description"
+      content="particles.js is a lightweight JavaScript library for creating particles."
+    />
+    <meta name="author" content="Vincent Garreau" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/demo/sass/styles.css" />
+    <link rel="stylesheet" media="screen" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- count particles -->
+    <!-- <div class="count-particles">
+    <span class="js-count-particles">--</span> particles
+  </div> -->
+
+    <!-- particles.js container -->
+
+    <nav class="navbar navbar-expand-lg navbar-transparent">
+      <a class="navbar-brand text-white" href="#" style="font-weight: 900;">TALUM</a>
+      <!-- <p class="text-white">Virtual Assitents</p> -->
+      <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+<!--     
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div> -->
+    </nav>
+
+
+
+    <section id="particles-js">
+      <div class="container">
+        <div class="text d-flex flex-column text-sm-center">
+          <!-- <h1 class="">
+            We are specialist in making dream couples:<br />
+            solutions with problems
+          </h1> -->
+          <h1 class="">
+            Virtual Assitance<br>
+            who connects problems with solutions
+          </h1>
+          <!-- <p class="pt-sm-4">We find the perfect match for your problem.</p> -->
+          <!-- <p>We introduce them. "Hello Mr Problem, she is Solution"</p> -->
+          <!-- <p>After you hire us, no problem will feel alone again</p> -->
+          <p class="pt-sm-4 pt-3">If you love your problems, let them go.</p>
+          <p class="pt-sm-1">
+            And if they come back to you, they will belong to us
+          </p>
+          <!-- <p>And if your problem is not satisfy, we have a suitor list</p> -->
+          <!-- <p>
+            We help you to be a good parent by letting you leave your problem
+            child go
+          </p>
+          -->
+        </div>
+      </div>
+    </section>
+
+    <!-- section img -->
+    <section>
+      <div class="container-fluid px-0">
+        <img src="/img/img.jpg" alt="" class="img-fluid imgBusiness" />
+      </div>
+    </section>
+
+    <!-- TODO -->
+    <section class="to-do" style="background: #352f5b" ;>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-12">
+            <div class="row">
+              <div
+                class="col-sm-6 col-12 todo-text d-flex align-items-center flex-column"
+              >
+                <h3 class="demoH">Demo</h3>
+                <p class="pt-sm-4">
+                  Let's keep your goals organized and make some priorities.
+                </p>
+                <p class="d-sm-block d-none">
+                  To the right there is a simple demo of how we can add, search
+                  and delete goals when completed.
+                </p>
+                <p class="d-none d-sm-block">
+                  Play around with it, while we are going to take your list
+                  seriously.
+                </p>
+                <p class="d-block d-sm-none">
+                  Here's a simple demo of how we can keep track of our tasks:
+                </p>
+              </div>
+
+              <!-- Todo box -->
+              <div class="general col-sm-6">
+                <div class="todo-responsive col-12">
+                  <header class="text-center text-light my-4">
+                    <h1 class="mb-4 searchT">Search Duties</h1>
+                    <form class="search">
+                      <input
+                        class="form-control m-auto"
+                        type="text"
+                        name="search"
+                        placeholder="Search duties"
+                      />
+                    </form>
+                  </header>
+
+                  <div class="text-center">
+                    <h3 class="duties-todo">Duties to solve</h3>
+                  </div>
+
+                  <ul class="list-group mx-auto todos">
+                    <li
+                      class="list-group-item d-flex justify-content-between align-items-center"
+                    >
+                      <span class="hey">Doctor appointment</span>
+                      <i class="far fa-trash-alt delete"></i>
+                    </li>
+                    <li
+                      class="list-group-item d-flex justify-content-between align-items-center"
+                    >
+                      <span>Rent a car for Tuesday</span>
+                      <i class="far fa-trash-alt delete"></i>
+                    </li>
+                    <li
+                      class="list-group-item d-flex justify-content-between align-items-center"
+                    >
+                      <span>Make a party tomorrow</span>
+                      <i class="far fa-trash-alt delete"></i>
+                    </li>
+                  </ul>
+
+                  <form class="add text-center">
+                    <h3>Add new duty ...</h3>
+                    <input
+                      class="form-control m-auto inputAdd text-gray"
+                      type="text"
+                      name="addTodo"
+                      id=""
+                      placeholder="Add a duty"
+                    />
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FLIP BOOK -->
+    <div class="container1 text-center" id="container">
+      <div class="book-content">
+        <div class="book">
+          <div class="face-front" id="portada"></div>
+          <h4 class="text-white titleBook mt-sm-3">Click image to learn more</h1>
+          <div class="face-back" id="">
+            <h3>The best for every budget</h3>
+            <p class="d-sm-block d-none">
+              We focus on home improvement services of all types including
+              cleaning, furniture assembly, tv mounting, moving help and more.
+              <br /><br />You can trust that all tasks that are booked and paid
+              for directly through the Handy platform are performed by
+              experienced, background-checked professionals who are highly rated
+              by customers. <br /><br />Using our platform, you can get free
+              quotes from top local home improvement pros on larger home
+              projects and even do a little shopping for home items with free
+              shipping and expert installation included.
+            </p>
+            <p class="d-block d-sm-none">
+              We focus on home improvement services of all types including
+              cleaning, furniture assembly, tv mounting, moving help and more.
+              
+            </p>
+          </div>
+        </div>
+
+        <div class="book">
+          <div class="face-front">
+            <h3>Quality work done quickly</h3>
+            <p class="d-sm-block d-none">
+              We will find out your needs and personally match you to a virtual
+              assistant that they think will be the best fit. It's this
+              personalized serviced that sets us apart. <br /><br />It's better
+              suited not for the person trying to get a task done here and
+              there, but for someone looking for more of a permanent,
+              longer-term solution. <br /><br />
+              It's a great option if you know you'll be needing ongoing support
+              for your projects or while you're building a business and not just
+              occasional help with tasks.
+            </p>
+            <p class="d-block d-sm-none">
+              We will find out your needs and personally match you to a virtual
+              assistant that they think will be the best fit. It's this
+              personalized serviced that sets us apart.
+            </p>
+          </div>
+
+          <div class="face-back">
+            <h3 class="pt-5">24/7<h3>
+            <p>
+              Questions? Our round-the-clock support team is available to help anytime, anywhere.
+            </p>
+          </div>
+        </div>
+
+        <div class="book">
+          <div class="face-front">
+            <h3 class="pt-5">Can I help you?</h3>
+            <img src="/img/green.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="face-back">
+            <h3 class="pt-5">Protected payments, every time</h3>
+            <p>
+              Always know what you'll pay upfront. Your payment isn't released until you approve the work.
+            </p>
+          </div>
+        </div>
+
+        <div class="book">
+          <div class="face-front">
+            <h1></h1>
+            <div class="mt-sm-5 mt-5">
+               <img src="/img/payment.jpg" alt="" class="img-fluid">
+           </div>
+          </div>
+          <div class="face-back d-sm-block d-none">
+            <h3 class="">Work Smarter, Not
+              Harder.</h3>
+            <p>
+              Social Media & Digital Marketing<br>
+              Email marketing
+              Copywriting
+              Blog Writing
+              Online advertising
+              Social Media account setup
+              Ongoing Social Media management
+            </p><br>
+            <p>Executive Assistance<br>
+              Travel booking
+              Calendar & Appointment Setting
+              Data Entry
+              Bookkeeping
+              HR</p><br>
+              <p>Web Design<br>
+                Website design
+                Website redesign
+                Custom branded images for the web</p>
+          </div>
+          <div class="face-back d-sm-none d-block">
+            <h3>Work Smarter, Not
+              Harder.</h3>
+            <p>
+              Social Media & Digital Marketing<br>
+              Email marketing
+              Copywriting
+              Blog Writing
+              Online advertising
+              Social Media account setup
+              Ongoing Social Media management
+              </p>
+          </div>
+        </div>
+
+        <div class="book">
+          <div class="face-front">
+            <h1></h1>
+            <div class="mt-sm-5 mt-5">
+              <img src="/img/amazon.jpg" alt="" class="img-fluid">
+           </div>
+          </div>
+          <div class="face-back" id="portada-back"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="">
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="row">
+      <div class="col-sm-3 f">
+          <h4>Contact Us</h4>
+          <p>876-6783</p>
+          <p>info@talum.com</p>
+      </div>
+        <div class="col-sm-3 f">
+          <h4>Home Office</h4>
+          <p>12078 4/2 Riverside Road</p>
+          <p>509, Marwin Lake, CA 92304</p>
+        </div>
+        <div class="col-sm-3 f">
+          <h4>Satellite Office</h4>
+          <p>1118 Rumtree Road NE, Suite</p>
+          <p>908, Philadelphia, 26002</p>
+        </div>
+        <div class="col-sm-3">
+          <h4>Jobs</h4>
+          <p>© 2020 Talum Virtual Assistants All</p>
+          <p>Rights Reserved. Privacy Policy</p>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+  </div>
+</div>
+    </footer>
+
+
+    <!-- preloader -->
+    <!-- <div class=" preloader">
+              <img src="preloader.gif" alt="preloader" class="preloader__item" />
+      </div> -->
+    <!-- header -->
+    <!-- <section class="video">
+    <video controls muted autoplay loop class="video-container">
+      <source src="./video.mov" type="video/mov" />
+    </video>
+    <h1>video project</h1> -->
+    <!-- video switch -->
+    <!-- <button class="switch-btn">
+      <span>
+        play
+      </span>
+      <span>
+        pause
+      </span>
+      <span class="switch"></span>
+    </button>
+  </section> -->
+
+    <!-- scripts -->
+    <script src="../particles.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/app2.js"></script>
+    <script src="main.js"></script>
+
+    <!-- stats.js -->
+    <script src="js/lib/stats.js"></script>
+    <!-- <script>
+    var count_particles, stats, update;
+    stats = new Stats;
+    stats.setMode(0);
+    stats.domElement.style.position = 'absolute';
+    stats.domElement.style.left = '0px';
+    stats.domElement.style.top = '0px';
+    document.body.appendChild(stats.domElement);
+    count_particles = document.querySelector('.js-count-particles');
+    update = function () {
+      stats.begin();
+      stats.end();
+      if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+        count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+      }
+      requestAnimationFrame(update);
+    };
+    requestAnimationFrame(update);
+  </script> -->
+  </body>
+</html>
